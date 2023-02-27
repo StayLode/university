@@ -1,0 +1,49 @@
+void agenda(lista &agenda, tipo_inf a)
+{
+    elem *e = new_elem(a);
+
+    if (agenda == NULL)
+    {
+        agenda = e;
+        return;
+    }
+
+    lista agenda_ = agenda;
+    while (agenda_ != NULL)
+    {
+
+        if (compare(head(agenda_), head(e)) > 0)
+        {
+            // inserisco prima
+            e->pun = agenda_;
+            agenda_->prev = e;
+            agenda = e;
+            return;
+        }
+        else if (tail(agenda_) == NULL || compare(head(tail(agenda_)), head(e)) > 0)
+        {
+            // inserisco dopo : 1 elemento (nella lista) || + di 1 elemento (nella lista)
+
+            e->prev = agenda_;
+            if (tail(agenda_) != NULL)
+            {
+                e->pun = tail(agenda_);
+                e->pun->prev = e;
+            }
+            agenda_->pun = e;
+            return;
+        }
+
+        agenda_ = tail(agenda_);
+    }
+}
+int compare(tipo_inf inf1, tipo_inf inf2)
+{
+    if (inf1.data == inf2.data)
+    {
+        if (inf1.ora_inizio == inf2.ora_inizio)
+            return inf1.ora_fine - inf2.ora_fine;
+        return inf1.ora_inizio - inf2.ora_inizio;
+    }
+    return inf1.data - inf2.data;
+}
