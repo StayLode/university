@@ -1,8 +1,0 @@
-char* merge_string(char *c, char *c2){
-  char *cfinal = new char[sizeof(c)+sizeof(c2)+1];
-  cout<<sizeof(c);
-  strcat(cfinal, c);
-  strcat(cfinal, " ");
-  strcat(cfinal, c2);
-  return cfinal;
-}
