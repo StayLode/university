@@ -1,0 +1,97 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.17"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Carta fedeltà:  File sorgente carta.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Carta fedeltà
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generato da Doxygen 1.8.17 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Cerca');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Cerca');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">carta.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="carta_8h.html">Vai alla documentazione di questo file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/*******************************/</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">/* HEADER MODULO &quot;carta&quot;       */</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">/*******************************/</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160; </div>
+<div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="structinfo.html">   11</a></span>&#160;<span class="keyword">struct </span><a class="code" href="structinfo.html">info</a>{</div>
+<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="structinfo.html#a51b3afc8a1e91ceb5d8cfc0c8ef82120">   12</a></span>&#160;    <span class="keywordtype">char</span>* <a class="code" href="structinfo.html#a51b3afc8a1e91ceb5d8cfc0c8ef82120">dati</a>;</div>
+<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="structinfo.html#a6e01edc24702269215144c6170e7a1ce">   13</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="structinfo.html#a6e01edc24702269215144c6170e7a1ce">punti</a>;</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;};</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160; </div>
+<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="carta_8h.html#a4bc2f7551aeedcd1d20947c080391911">   16</a></span>&#160;<span class="keyword">typedef</span> <a class="code" href="structinfo.html">info</a> <a class="code" href="carta_8h.html#a4bc2f7551aeedcd1d20947c080391911">tipo_inf</a>;</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="keywordtype">int</span> <a class="code" href="carta_8h.html#abaf6df3b59219b4f9a01bceaa9a7ac65">compare</a>(<a class="code" href="structinfo.html">tipo_inf</a>,<a class="code" href="structinfo.html">tipo_inf</a>);</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="keywordtype">void</span> <a class="code" href="carta_8h.html#a5b601e34d40349d965e34c2dcc79ce1f">copy</a>(<a class="code" href="structinfo.html">tipo_inf</a>&amp;,<a class="code" href="structinfo.html">tipo_inf</a>);</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="keywordtype">void</span> <a class="code" href="carta_8h.html#a613fc6e18b77c8dde2d91609c0599a1e">print</a>(<a class="code" href="structinfo.html">tipo_inf</a>);</div>
+</div><!-- fragment --></div><!-- contents -->
+<div class="ttc" id="acarta_8h_html_a613fc6e18b77c8dde2d91609c0599a1e"><div class="ttname"><a href="carta_8h.html#a613fc6e18b77c8dde2d91609c0599a1e">print</a></div><div class="ttdeci">void print(tipo_inf)</div><div class="ttdoc">funzione per stampare il valore informativo di un nodo</div><div class="ttdef"><b>Definition:</b> carta.cc:43</div></div>
+<div class="ttc" id="acarta_8h_html_abaf6df3b59219b4f9a01bceaa9a7ac65"><div class="ttname"><a href="carta_8h.html#abaf6df3b59219b4f9a01bceaa9a7ac65">compare</a></div><div class="ttdeci">int compare(tipo_inf, tipo_inf)</div><div class="ttdoc">funzione per comparare il nome e cognome delle varie carte</div><div class="ttdef"><b>Definition:</b> carta.cc:17</div></div>
+<div class="ttc" id="astructinfo_html_a51b3afc8a1e91ceb5d8cfc0c8ef82120"><div class="ttname"><a href="structinfo.html#a51b3afc8a1e91ceb5d8cfc0c8ef82120">info::dati</a></div><div class="ttdeci">char * dati</div><div class="ttdef"><b>Definition:</b> carta.h:12</div></div>
+<div class="ttc" id="acarta_8h_html_a5b601e34d40349d965e34c2dcc79ce1f"><div class="ttname"><a href="carta_8h.html#a5b601e34d40349d965e34c2dcc79ce1f">copy</a></div><div class="ttdeci">void copy(tipo_inf &amp;, tipo_inf)</div><div class="ttdoc">utilizzata per copiare nel campo dati la stringa passata da riga di comando quando si vuole generare ...</div><div class="ttdef"><b>Definition:</b> carta.cc:30</div></div>
+<div class="ttc" id="astructinfo_html"><div class="ttname"><a href="structinfo.html">info</a></div><div class="ttdoc">Definizione struttura dati per l'informazione contenuta nei nodi del bst dati --&gt; puntatore a stringa...</div><div class="ttdef"><b>Definition:</b> carta.h:11</div></div>
+<div class="ttc" id="acarta_8h_html_a4bc2f7551aeedcd1d20947c080391911"><div class="ttname"><a href="carta_8h.html#a4bc2f7551aeedcd1d20947c080391911">tipo_inf</a></div><div class="ttdeci">info tipo_inf</div><div class="ttdef"><b>Definition:</b> carta.h:16</div></div>
+<div class="ttc" id="astructinfo_html_a6e01edc24702269215144c6170e7a1ce"><div class="ttname"><a href="structinfo.html#a6e01edc24702269215144c6170e7a1ce">info::punti</a></div><div class="ttdeci">int punti</div><div class="ttdef"><b>Definition:</b> carta.h:13</div></div>
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generato da &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.17
+</small></address>
+</body>
+</html>

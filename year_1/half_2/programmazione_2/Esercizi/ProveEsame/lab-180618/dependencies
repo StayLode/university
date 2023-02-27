@@ -1,0 +1,3 @@
+bst\ .o: bst\ .cc carta.h bst.h
+carta.o: carta.cc carta.h
+compito.o: compito.cc carta.h bst.h

@@ -1,0 +1,3 @@
+albero.o: albero.cc stringa.h albero.h
+main.o: main.cc stringa.h albero.h
+stringa.o: stringa.cc stringa.h

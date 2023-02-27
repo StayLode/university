@@ -1,0 +1,56 @@
+/*dividere lista in due liste dove in una restano solo i numeri pari mentre nell'altra ci metto i dispari
+
+6 5 2 3 1
+
+--> 6
+l = 5
+lista_pari = precedente_pari = 6
+
+--> 5
+precedente = 5
+
+--> 2
+5 punta a 3 (si collegano)
+6 si collega a 2 (pun di 6 punta a 2)
+precedente_pari = 2
+
+--> 3
+precedente = 3
+
+--> 1
+precedente = 1
+
+--> NULL
+si ferma il ciclo while
+
+precedente_pari.pun = NULL cioè il puntatore al prossimo elem di 2 punta a NULL
+
+return lista_pari ovvero ritorno 6
+*/
+
+lista split(lista& l){
+    lista l_temp = l;
+    lista precedente = NULL;
+    lista lista_pari = NULL;
+    lista precedente_pari = NULL;
+
+    while(l_temp != NULL){
+        if((head(l_temp)%2) == 0){
+            if(precedente == NULL)
+                l = tail(l);
+            else
+                precedente->pun = tail(l_temp);
+            if(lista_pari == NULL)
+                    lista_pari = precedente_pari = l_temp;
+             else{
+                    precedente_pari->pun = l_temp;
+                    precedente_pari = l_temp;
+                }
+        }
+        else
+            precedente = l_temp;
+        l_temp = tail(l_temp);
+    }
+    precedente_pari->pun = NULL;
+    return lista_pari;
+}
