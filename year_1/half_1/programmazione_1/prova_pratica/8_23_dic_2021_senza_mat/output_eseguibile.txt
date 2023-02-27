@@ -1,0 +1,92 @@
+1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire numero di piste: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire id dell'aereo: Inserire nr di pista: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire id dell'aereo: Inserire nr di pista: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire id dell'aereo: Inserire nr di pista: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire numero di piste: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+0 - . . . 
+
+1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+

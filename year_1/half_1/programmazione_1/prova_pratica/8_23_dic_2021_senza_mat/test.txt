@@ -1,0 +1,2002 @@
+
+==== Inizio test reinizializzazione a vuoto senza stampa ====
+
+Eseguo il programma fornendo il seguente input: 1 2 8
+
+Ecco l'output del programma, in cui non vedrai l'input:
+
+1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire numero di piste: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+In questo test non controllo l'output del programma
+
+
+==== Inizio test reinizializzazione senza stampa ====
+
+Eseguo il programma fornendo il seguente input: 1 4 8
+
+Ecco l'output del programma, in cui non vedrai l'input:
+
+1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire numero di piste: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+In questo test non controllo l'output del programma
+
+
+==== Inizio test reinizializzazione ====
+
+Eseguo il programma fornendo il seguente input: 1 3 8
+
+Ecco l'output del programma, in cui non vedrai l'input:
+
+1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire numero di piste: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+In questo test non controllo l'output del programma
+
+
+==== Inizio test reinizializzazione a molti elementi e a pochi elementi ====
+
+Eseguo il programma fornendo il seguente input: 1 20 1 45 1 5 8
+
+Ecco l'output del programma, in cui non vedrai l'input:
+
+1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire numero di piste: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire numero di piste: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire numero di piste: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+In questo test non controllo l'output del programma
+
+
+==== Inizio test inserimento di un oggetto ====
+
+Eseguo il programma fornendo il seguente input: 1 1 2 aaa 0 8
+
+Ecco l'output del programma, in cui non vedrai l'input:
+
+1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire numero di piste: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire id dell'aereo: Inserire nr di pista: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+In questo test non controllo l'output del programma
+
+
+==== Inizio test inserimento di due oggetti ====
+
+Eseguo il programma fornendo il seguente input: 1 1 2 aaa 0 2 bbb 0 8
+
+Ecco l'output del programma, in cui non vedrai l'input:
+
+1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire numero di piste: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire id dell'aereo: Inserire nr di pista: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire id dell'aereo: Inserire nr di pista: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+In questo test non controllo l'output del programma
+
+
+==== Inizio test inserimento di tre oggetti ====
+
+Eseguo il programma fornendo il seguente input: 1 1 2 aaa 0 2 bbb 0 2 ccc 0 8
+
+Ecco l'output del programma, in cui non vedrai l'input:
+
+1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire numero di piste: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire id dell'aereo: Inserire nr di pista: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire id dell'aereo: Inserire nr di pista: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire id dell'aereo: Inserire nr di pista: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+In questo test non controllo l'output del programma
+
+
+==== Inizio test inserimento di quattro oggetti quando non vi è più spazio ====
+
+Eseguo il programma fornendo il seguente input: 1 1 2 aaa 0 2 bbb 0 2 ccc 0 8
+
+Ecco l'output del programma, in cui non vedrai l'input:
+
+1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire numero di piste: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire id dell'aereo: Inserire nr di pista: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire id dell'aereo: Inserire nr di pista: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire id dell'aereo: Inserire nr di pista: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+In questo test non controllo l'output del programma
+
+
+==== Inizio test stampa a vuoto post inizializzazione ====
+
+Eseguo il programma fornendo il seguente input: 1 1 3 8
+
+Ecco l'output del programma, in cui non vedrai l'input:
+
+1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire numero di piste: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+0 - . . . 
+
+1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Ora leggo l'output del programma, e come parte finale di stampa dello stato
+mi aspetto:
+0 - . . . 
+
+Test superato!!!
+-------------------------------------------------------------
+
+==== Inizio test stampa a vuoto post inizializzazione con 3 corsie ====
+
+Eseguo il programma fornendo il seguente input: 1 3 3 8
+
+Ecco l'output del programma, in cui non vedrai l'input:
+
+1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire numero di piste: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+0 - . . . 
+1 - . . . 
+2 - . . . 
+
+1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Ora leggo l'output del programma, e come parte finale di stampa dello stato
+mi aspetto:
+0 - . . . 
+1 - . . . 
+2 - . . . 
+
+Test superato!!!
+-------------------------------------------------------------
+
+==== Inizio test inserimento di quattro oggetti ( non vi è più spazio) e stampa ====
+
+Eseguo il programma fornendo il seguente input: 1 1 2 aaa 0 2 bbb 0 2 ccc 0 3 8
+
+Ecco l'output del programma, in cui non vedrai l'input:
+
+1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire numero di piste: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire id dell'aereo: Inserire nr di pista: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire id dell'aereo: Inserire nr di pista: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire id dell'aereo: Inserire nr di pista: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+0 - aaa bbb ccc 
+
+1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Ora leggo l'output del programma, e come parte finale di stampa dello stato
+mi aspetto:
+0 - aaa bbb ccc 
+
+Test superato!!!
+-------------------------------------------------------------
+
+==== Inizio test stampa con 1 valore dentro ====
+
+Eseguo il programma fornendo il seguente input: 1 1 2 aaa 0 3 8
+
+Ecco l'output del programma, in cui non vedrai l'input:
+
+1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire numero di piste: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire id dell'aereo: Inserire nr di pista: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+0 - aaa . . 
+
+1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Ora leggo l'output del programma, e come parte finale di stampa dello stato
+mi aspetto:
+0 - aaa . . 
+
+Test superato!!!
+-------------------------------------------------------------
+
+==== Inizio test stampa con 2 valori dentro ====
+
+Eseguo il programma fornendo il seguente input: 1 1 2 aaa 0 2 bbb 0 3 8
+
+Ecco l'output del programma, in cui non vedrai l'input:
+
+1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire numero di piste: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire id dell'aereo: Inserire nr di pista: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire id dell'aereo: Inserire nr di pista: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+0 - aaa bbb . 
+
+1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Ora leggo l'output del programma, e come parte finale di stampa dello stato
+mi aspetto:
+0 - aaa bbb . 
+
+Test superato!!!
+-------------------------------------------------------------
+
+==== Inizio test stampa con 3 valori dentro ====
+
+Eseguo il programma fornendo il seguente input: 1 1 2 aaa 0 2 bbb 0 2 ccccc 0 3 8
+
+Ecco l'output del programma, in cui non vedrai l'input:
+
+1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire numero di piste: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire id dell'aereo: Inserire nr di pista: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire id dell'aereo: Inserire nr di pista: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire id dell'aereo: Inserire nr di pista: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+0 - aaa bbb ccccc 
+
+1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Ora leggo l'output del programma, e come parte finale di stampa dello stato
+mi aspetto:
+0 - aaa bbb ccccc 
+
+Test superato!!!
+-------------------------------------------------------------
+
+==== Inizio test inserimento di 1 valore caso limite lunghezza stringa ====
+
+Eseguo il programma fornendo il seguente input: 1 1 2 aaaaaaaaaa 0 3 8
+
+Ecco l'output del programma, in cui non vedrai l'input:
+
+1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire numero di piste: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire id dell'aereo: Inserire nr di pista: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+0 - aaaaaaaaaa . . 
+
+1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Ora leggo l'output del programma, e come parte finale di stampa dello stato
+mi aspetto:
+0 - aaaaaaaaaa . . 
+
+Test superato!!!
+-------------------------------------------------------------
+
+==== Inizio test inserimento di 3 valore caso limite lunghezze stringhe ====
+
+Eseguo il programma fornendo il seguente input: 1 1 2 aaaaaaaaaa 0 2 aaaaaaaaaa 0 2 aaaaaaaaaa 0 3 8
+
+Ecco l'output del programma, in cui non vedrai l'input:
+
+1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire numero di piste: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire id dell'aereo: Inserire nr di pista: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire id dell'aereo: Inserire nr di pista: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire id dell'aereo: Inserire nr di pista: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+0 - aaaaaaaaaa aaaaaaaaaa aaaaaaaaaa 
+
+1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Ora leggo l'output del programma, e come parte finale di stampa dello stato
+mi aspetto:
+0 - aaaaaaaaaa aaaaaaaaaa aaaaaaaaaa 
+
+Test superato!!!
+-------------------------------------------------------------
+
+==== Inizio test test coda 1 già piena e reinserimento dall'inizio ====
+
+Eseguo il programma fornendo il seguente input: 1 2 2 m 1 2 k 1 2 l 1 2 a 1 3 8
+
+Ecco l'output del programma, in cui non vedrai l'input:
+
+1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire numero di piste: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire id dell'aereo: Inserire nr di pista: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire id dell'aereo: Inserire nr di pista: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire id dell'aereo: Inserire nr di pista: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire id dell'aereo: Inserire nr di pista: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+0 - a . . 
+1 - m k l 
+
+1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Ora leggo l'output del programma, e come parte finale di stampa dello stato
+mi aspetto:
+0 - a . . 
+1 - m k l 
+
+Test superato!!!
+-------------------------------------------------------------
+
+==== Inizio test test coda 1 già piena e anche precedenti piene. Reinserimento nelle successive consecutive ====
+
+Eseguo il programma fornendo il seguente input: 1 3 2 a 0 2 b 0 2 c 0 2 m 1 2 k 1 2 l 1 2 VVV 1 3 8
+
+Ecco l'output del programma, in cui non vedrai l'input:
+
+1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire numero di piste: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire id dell'aereo: Inserire nr di pista: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire id dell'aereo: Inserire nr di pista: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire id dell'aereo: Inserire nr di pista: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire id dell'aereo: Inserire nr di pista: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire id dell'aereo: Inserire nr di pista: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire id dell'aereo: Inserire nr di pista: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire id dell'aereo: Inserire nr di pista: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+0 - a b c 
+1 - m k l 
+2 - VVV . . 
+
+1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Ora leggo l'output del programma, e come parte finale di stampa dello stato
+mi aspetto:
+0 - a b c 
+1 - m k l 
+2 - VVV . . 
+
+Test superato!!!
+-------------------------------------------------------------
+
+==== Inizio test 3 valori, rimozione del primo e stampa ====
+
+Eseguo il programma fornendo il seguente input: 1 1 2 aaa 0 2 bbb 0 2 ccccc 0 4 aaa 3 8
+
+Ecco l'output del programma, in cui non vedrai l'input:
+
+1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire numero di piste: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire id dell'aereo: Inserire nr di pista: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire id dell'aereo: Inserire nr di pista: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire id dell'aereo: Inserire nr di pista: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire id dell'aereo da rimuovere: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+0 - . bbb ccccc 
+
+1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Ora leggo l'output del programma, e come parte finale di stampa dello stato
+mi aspetto:
+0 - . bbb ccccc 
+
+Test superato!!!
+-------------------------------------------------------------
+
+==== Inizio test 3 valori, rimozione del secondo e stampa ====
+
+Eseguo il programma fornendo il seguente input: 1 1 2 aaa 0 2 bbb 0 2 ccccc 0 4 bbb 3 8
+
+Ecco l'output del programma, in cui non vedrai l'input:
+
+1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire numero di piste: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire id dell'aereo: Inserire nr di pista: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire id dell'aereo: Inserire nr di pista: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire id dell'aereo: Inserire nr di pista: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire id dell'aereo da rimuovere: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+0 - aaa . ccccc 
+
+1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Ora leggo l'output del programma, e come parte finale di stampa dello stato
+mi aspetto:
+0 - aaa . ccccc 
+
+Test superato!!!
+-------------------------------------------------------------
+
+==== Inizio test 3 valori, rimozione del terzo e stampa ====
+
+Eseguo il programma fornendo il seguente input: 1 1 2 aaa 0 2 bbb 0 2 ccccc 0 4 ccccc 3 8
+
+Ecco l'output del programma, in cui non vedrai l'input:
+
+1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire numero di piste: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire id dell'aereo: Inserire nr di pista: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire id dell'aereo: Inserire nr di pista: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire id dell'aereo: Inserire nr di pista: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire id dell'aereo da rimuovere: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+0 - aaa bbb . 
+
+1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Ora leggo l'output del programma, e come parte finale di stampa dello stato
+mi aspetto:
+0 - aaa bbb . 
+
+Test superato!!!
+-------------------------------------------------------------
+
+==== Inizio test 6 valori, rimozione del primo del primo della seconda riga e stampa ====
+
+Eseguo il programma fornendo il seguente input: 1 2 2 aaa 0 2 bbb 0 2 ccccc 0 2 mmms 1 2 kkk 1 2 ciao 1 4 mmms 3 8
+
+Ecco l'output del programma, in cui non vedrai l'input:
+
+1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire numero di piste: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire id dell'aereo: Inserire nr di pista: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire id dell'aereo: Inserire nr di pista: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire id dell'aereo: Inserire nr di pista: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire id dell'aereo: Inserire nr di pista: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire id dell'aereo: Inserire nr di pista: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire id dell'aereo: Inserire nr di pista: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire id dell'aereo da rimuovere: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+0 - aaa bbb ccccc 
+1 - . kkk ciao 
+
+1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Ora leggo l'output del programma, e come parte finale di stampa dello stato
+mi aspetto:
+0 - aaa bbb ccccc 
+1 - . kkk ciao 
+
+Test superato!!!
+-------------------------------------------------------------
+
+==== Inizio test 6 valori, rimozione del secondo della seconda riga e stampa ====
+
+Eseguo il programma fornendo il seguente input: 1 2 2 aaa 0 2 bbb 0 2 ccccc 0 2 mmms 1 2 kkk 1 2 ciao 1 4 kkk 3 8
+
+Ecco l'output del programma, in cui non vedrai l'input:
+
+1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire numero di piste: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire id dell'aereo: Inserire nr di pista: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire id dell'aereo: Inserire nr di pista: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire id dell'aereo: Inserire nr di pista: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire id dell'aereo: Inserire nr di pista: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire id dell'aereo: Inserire nr di pista: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire id dell'aereo: Inserire nr di pista: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire id dell'aereo da rimuovere: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+0 - aaa bbb ccccc 
+1 - mmms . ciao 
+
+1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Ora leggo l'output del programma, e come parte finale di stampa dello stato
+mi aspetto:
+0 - aaa bbb ccccc 
+1 - mmms . ciao 
+
+Test superato!!!
+-------------------------------------------------------------
+
+==== Inizio test 6 valori, rimozione del terzo della seconda riga e stampa ====
+
+Eseguo il programma fornendo il seguente input: 1 2 2 aaa 0 2 bbb 0 2 ccccc 0 2 mmms 1 2 kkk 1 2 ciao 1 4 ciao 3 8
+
+Ecco l'output del programma, in cui non vedrai l'input:
+
+1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire numero di piste: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire id dell'aereo: Inserire nr di pista: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire id dell'aereo: Inserire nr di pista: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire id dell'aereo: Inserire nr di pista: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire id dell'aereo: Inserire nr di pista: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire id dell'aereo: Inserire nr di pista: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire id dell'aereo: Inserire nr di pista: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire id dell'aereo da rimuovere: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+0 - aaa bbb ccccc 
+1 - mmms kkk . 
+
+1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Ora leggo l'output del programma, e come parte finale di stampa dello stato
+mi aspetto:
+0 - aaa bbb ccccc 
+1 - mmms kkk . 
+
+Test superato!!!
+-------------------------------------------------------------
+
+==== Inizio test inizializzo a niente e salvo su file ====
+
+Eseguo il programma fornendo il seguente input: 1 0 5 8
+
+Ecco l'output del programma, in cui non vedrai l'input:
+
+1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire numero di piste: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+In questo test non controllo l'output del programma
+
+
+==== Inizio test 6 valori, rimozione dell'ultimo della seconda riga, stampa e salvo su file ====
+
+Eseguo il programma fornendo il seguente input: 1 2 2 aaa 0 2 bbb 0 2 ccccc 0 2 mmms 1 2 kkk 1 2 ciao 1 4 ciao 3 8
+
+Ecco l'output del programma, in cui non vedrai l'input:
+
+1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire numero di piste: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire id dell'aereo: Inserire nr di pista: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire id dell'aereo: Inserire nr di pista: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire id dell'aereo: Inserire nr di pista: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire id dell'aereo: Inserire nr di pista: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire id dell'aereo: Inserire nr di pista: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire id dell'aereo: Inserire nr di pista: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire id dell'aereo da rimuovere: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+0 - aaa bbb ccccc 
+1 - mmms kkk . 
+
+1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Ora leggo l'output del programma, e come parte finale di stampa dello stato
+mi aspetto:
+0 - aaa bbb ccccc 
+1 - mmms kkk . 
+
+Test superato!!!
+-------------------------------------------------------------
+
+==== Inizio test inizializzo 1 coda, salvo su file e ricarico ====
+
+Eseguo il programma fornendo il seguente input: 1 1 5 6 3 8
+
+Ecco l'output del programma, in cui non vedrai l'input:
+
+1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire numero di piste: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+0 - . . . 
+
+1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Ora leggo l'output del programma, e come parte finale di stampa dello stato
+mi aspetto:
+0 - . . . 
+
+Test superato!!!
+-------------------------------------------------------------
+
+==== Inizio test init a 2 code, 3 valori in input,salvo su file, inizializzo di nuovo, carico vecchio e stampo ====
+
+Eseguo il programma fornendo il seguente input: 1 2 2 a 0 2 b 0 2 c 0 5 1 1 6 3 8
+
+Ecco l'output del programma, in cui non vedrai l'input:
+
+1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire numero di piste: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire id dell'aereo: Inserire nr di pista: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire id dell'aereo: Inserire nr di pista: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire id dell'aereo: Inserire nr di pista: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Inserire numero di piste: 1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+0 - . . . 
+
+1. Inizializza Aeroporto
+2. Aggiungi un aereo ad una pista
+3. Stampa lo stato delle piste
+4. Rimuovi un aereo
+5. Salva aeroporto
+6. Carica aeroporto
+7. Compatta piste
+8. Esci
+
+
+Ora leggo l'output del programma, e come parte finale di stampa dello stato
+mi aspetto:
+0 - a b c 
+1 - . . . 
+
+Non ho trovato la prima tra le righe di stampa da controllare!
+Verifica la presenza di tale riga nell'output del tuo programma
+e la correttezza del formato di tale riga.
+Se ti sembra che la riga ci sia, controlla attentamente,
+nella tua riga di stampa, la presenza di eventuali spazi
+in piu' o in meno, o di caratteri di punteggiatura in piu'
+o in meno (tipo : ; , . accapo e così via).
+
+Un altro errore comune e' il non aver inserito un accapo PRIMA
+della prima riga che mi aspetto di trovare. In tal caso, tale prima
+prima riga non e' effettivamente una riga a se stante, ma risulta attaccata
+alla riga precedente. Quando tu inserisci l'input manualmente, non ti accorgi
+di questo errore, perché inserisci tu i newline nel terminale. Ma tali newline
+non ci sono nell'output del programma.
+
+Il tuo programma ha superato tutti i test relativi ai punti che
+precedono il punto 6, ma non ha superato un test relativo al
+punto 6 (ossia l'ultimo test effettuato finora).
+
+Il test del punto 6 potrebbe essere fallito semplicemente perche'
+non hai ancora implementato il punto 6.
+
+Per poter accedere alla correzione anche del 6,
+devi prima aver implementato il punto 6 ed aver corretto
+gli errori che fanno fallire l'ultimo test.
+
+I docenti correggeranno SOLO i punti PRECEDENTI al punto 6
+
+Sono eseguito su un PC personale, non spedisco nulla.
