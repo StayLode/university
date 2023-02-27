@@ -1,0 +1,201 @@
+*******************Selection Sort*******************
+
+void selection_sort(int v[], const int max){
+    for (int j=0;j<max-1;j++){
+        int min=j;
+        for (int i=j+1;i<max;i++){
+            if(v[i]<v[min])
+                min=i;
+        }
+        int tmp=v[j];
+        v[j]=v[min];
+        v[min]=tmp;
+
+    }
+
+*******************Merge sort*******************
+
+int a[N]={2,6,7,10,12,15}, 
+int a[N]={2,6,7,10,12,15}, 
+b[M]={5,8,13,14}, 
+c[N+M];
+int i=0, j=0, k=0;
+
+
+    //! Inizio MergeSort
+    do
+    {
+        if(a[i] <= b[j])
+            c[k++] = a[i++];
+        else 
+            c[k++] = b[j++];
+    }
+    while((i<N) && (j<M));   //finche' non ho finito uno dei due array
+
+    if(i<N) //se e' finito l'array b continuo con gli elementi di a
+        for(; i<N; i++)
+            c[k++] = a[i];
+    else //se e' finito a continuo con gli elementi di b
+        for(; j<M; j++)
+            c[k++] = b[j];		
+    //! Fine MergeSort
+
+*******************Base 10->Base 2*******************
+int n_10, n_cifre=0, base = 1, somma=0;
+cout<<"Inserisci un numero intero positivo: ";
+cin>>n_10;
+
+----------Con vettore--------------
+int v[100];
+//Attenzione !!
+int base=2;    
+//(n_10/b^i)%b estrarre un numero in posizione i-esima
+int i=0;
+for(;pow(base,i) < n_10;i++)
+    v[i]=(n_10 / static_cast<int>(pow(base,i)) )% base;
+    
+
+for(i--;i>=0;i--)
+    cout<<v[i];
+    
+cout << endl;
+
+----------------------Senza Variabile-----------------------
+while (base < n_10){
+        base *= 2;
+ }
+
+while (base >= 1){
+    cout << (n_10 / base) % 2;
+    base /= 2;
+}
+
+    
+---------------Con Variabile---------------------------------
+    
+for(int i=0;base < n_10;i++){
+        somma += ((n_10 / base) % 2)*pow(10,i);
+        base *= 2;
+}
+cout << somma <<endl;
+
+
+***************Base2->Base10******************
+---------------- Con vettore-------------------
+ int n_2, n_cifre=0, base = 10, somma=0;
+    cout<<"Inserisci un numero intero positivo: ";
+    cin>>n_2;
+    int v[100];
+    int n=0,i=0;
+    for(;pow(base,i)<n_2;i++){
+      v[i]=(n_2/(static_cast<int>(pow(base,i))))%base;
+
+    }for(i--;i>=0;i--){
+      somma+=v[i]*2^i;
+    }
+    cout<<somma<<endl;
+
+-------------------Senza Vettore------------------------
+int num, num_10=0;
+    cout<<"Numero binario: ";
+    cin>>num;
+
+    for(int i = 30; i>=0; i--){
+      num_10 += ((num/static_cast<int>(pow(10,i)))%10)*pow(2,i);
+    }
+
+    cout<<num_10;
+
+*******************Numero primo*******************
+int is_prime(int n){
+    if (n>0 && n<=3){
+        return 1;
+    }
+
+    if (n%2==0)
+        return 0;
+
+    int max_div = static_cast<int>(sqrt(n));
+
+    for(int i=3;i<=max_div;i+=2){
+
+        if(n%i==0)
+            return 0;
+
+    }
+    return 1;
+
+}
+
+*******************Rand*******************
+
+srand(time(0));
+rand() %(max-min+1)+min;
+
+// codice_carattere
+
+#include <iostream>
+
+using namespace std ;
+
+int main()
+{
+    int codice;
+    char carattere;
+
+    cout<<"Inserisci un codice ASCII " ;
+    cin>>codice ;
+
+    carattere = static_cast<char>(codice); // conversione
+                           // prima
+                           // dell'assegnamento
+    if (carattere >= ' ' && carattere <= '~') {
+            cout<<"Il carattere corrispondente e' "<<carattere<<endl ;
+    } else
+            cout<<"Hai inserito il codice di un carattere non stampabile\n" ;
+
+    return 0 ;
+}
+
+// carattere codice
+
+#include <iostream>
+
+using namespace std ;
+
+int main()
+{
+    char carattere;
+
+    cout<<"Inserisci un carattere " ;
+    cin>>carattere ;
+    int i = static_cast<int>(carattere) ; // converto prima di assegnare
+    cout<<"Il codice ASCII del carattere e' "<<i<<endl ;
+
+    return 0 ;
+}
+
+
+// epsilon
+
+int main(){
+    ...
+    const double epsilon = 1e-7 ;
+    ...
+    /* Versione errata:
+    * if (pos != 1.0)
+    *   cout<<", staccare le funi"<<endl ;
+    * else
+    *   cout<<", non staccare le funi!!!"<<endl ;
+    */
+    if (pos < 1.0 - epsilon || pos > 1.0 + epsilon)
+        cout<<", staccare le funi"<<endl ;
+    else
+        cout<<", non staccare le funi!!!"<<endl ;
+
+}
+
+
+
+
+
