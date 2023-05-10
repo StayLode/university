@@ -1,0 +1,62 @@
+/*
+-- Studenti del secondo anno di corso
+FROM s
+WHERE ACorso=2
+
+-- Esami con voto compreso tra 24 e 28
+SELECT *
+FROM e
+WHERE voto BETWEEN 24 AND 28
+
+-- Studenti il cui nome inizia con G
+SELECT *
+FROM s
+WHERE SNome LIKE 'G%'
+
+-- Città di studenti (senza duplicati)
+SELECT DISTINCT Citta
+FROM s
+
+-- Studenti con l'attributo città non specificato
+SELECT *
+FROM s
+WHERE citta IS NULL
+
+-- Coppie di studenti residenti nella stessa città
+SELECT x.matr, y.matr
+FROM s as x, s as y
+WHERE x.citta = y.citta AND x.matr<y.matr
+
+-- Per ogni esame con voto superiore a 24 riportare il nome dello studente e il codice del docente del corso
+SELECT s.snome, d.cd
+FROM s, c, e, d
+WHERE s.matr=e.matr AND e.voto>24 AND e.cc = c.cc AND c.cd=d.cd
+
+--Alternativa:
+SELECT s.nome, d.cd
+FROM S
+JOIN E ON S.MATR = E.MATR
+JOIN C ON C.CC = E.CC
+JOIN D ON D.CD = C.CD
+WHERE e.voto > 24
+
+
+-- Matricole degli studenti che hanno sostenuto almeno uno degli esami sostenuti dallo studente di nome 'Ugo Rossi'
+SELECT e.matr
+FROM (
+	SELECT e.cc
+	FROM e, s
+	WHERE e.matr=s.matr AND s.SNome = 'Ugo Rossi'
+) AS e_ugo
+JOIN e ON e.cc=e_ugo.cc 
+
+
+Alternativa:
+SELECT e.matr
+FROM (
+	SELECT e.cc
+	FROM e, s
+	WHERE e.matr=s.matr AND s.SNome = 'Ugo Rossi'
+) AS e_ugo, e
+WHERE e.cc = e_ugo.cc 
+*/
