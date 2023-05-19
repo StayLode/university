@@ -1,0 +1,82 @@
+/*
+--Studenti di Modena ordinati in senso ascedente rispetto all'anno di corso
+SELECT  Matr, Acorso
+FROM s
+WHERE Citta = 'MO'
+ORDER BY Acorso
+
+
+-- Esami del corso C1 ordinati in senso discendente rispetto al voto espresso in sessantesimi, 
+-- e a parità di voto rispetto alla matricola
+SELECT MATR, CC, VOTO*2
+FROM e
+WHERE CC = 'C1'
+ORDER BY Voto DESC, MATR ASC
+
+-- Numero di studenti presenti
+SELECT COUNT(*)
+from s
+
+
+--Numero di studenti che hanno sostenuto almeno un esame
+SELECT COUNT(DISTINCT matr)
+FROM e
+
+-- Voto medio degli esami sostenuti dalla matricola M2
+SELECT ROUND(AVG(Voto))
+FROM e
+WHERE matr='M2'
+
+
+-- Voto massimo e minimo ottenuto per ogni studente, escludendo il corso C2
+SELECT matr, MAX(voto), MIN(voto)
+from e
+WHERE CC <> 'C2'
+GROUP BY matr
+
+
+-- Voto massimo e minimo per ogni studente, visualizzando anche il nome dello studente
+SELECT e.matr, s.Snome, MAX(e.voto), MIN(e.voto)
+from e, s
+WHERE e.matr=s.matr
+GROUP BY e.matr, s.Snome
+
+
+-- Codice e nome di un corso, e relativo numero di esami sostenuti
+SELECT c.cc, c.cnome, COUNT(e.*)
+FROM e, c
+WHERE c.cc=e.cc
+GROUP BY c.cc, c.cnome
+
+-- Versione neri, non capisco cosa cambi
+SELECT c.cc, c.cnome, COUNT(e.*)
+FROM e, c
+WHERE c.cc=e.cc
+GROUP BY c.cc
+
+--Numero di esami per ogni voto compreso tra 22 e 28
+SELECT e.voto, COUNT(*)
+FROM e
+WHERE voto BETWEEN 22 AND 28
+GROUP BY e.voto
+
+--Versione prof
+SELECT Voto, COUNT(*)
+FROM E
+GROUP BY Voto
+HAVING Voto BETWEEN 22 AND 28
+
+
+-- Media dei voti per ogni esame sostenuto da più di due studenti
+SELECT cc, round(AVG(voto))
+FROM e
+GROUP BY cc
+HAVING COUNT(voto)>2
+*/
+
+-- Matricola degli studenti che hanno sostenuto almeno due esami con lo stesso voto
+-- (uno studente fa parte del risultato se ha preso lo stesso voto almeno due volte)
+SELECT matr
+from e
+GROUP BY matr, voto
+HAVING COUNT(*)>=2

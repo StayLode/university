@@ -1,0 +1,79 @@
+/*
+-- Città di studenti ma non di docenti
+SELECT citta 
+FROM s
+EXCEPT
+SELECT citta 
+FROM d
+
+SELECT citta
+FROM s
+WHERE citta NOT IN(
+	SELECT citta
+	FROM d
+)
+
+-- Nome degli studenti che hanno sostenuto l'esame del corso C1
+SELECT s.snome
+FROM s, e
+WHERE s.matr=e.matr AND e.cc='C1'
+
+
+SELECT snome
+FROM s
+WHERE matr IN (
+	SELECT matr
+	FROM e
+	WHERE cc='C1'
+)
+
+-- Studenti con anno di corso più basso
+SELECT *
+FROM s
+WHERE acorso <= ALL(
+	SELECT acorso
+	FROM s
+)
+
+-- Nome degli studenti che non hanno sostenuto l'esame del corso C1
+
+SELECT snome
+FROM s
+WHERE NOT EXISTS (
+	SELECT *
+	FROM e
+	WHERE s.matr = e.matr AND e.cc = 'C1'
+)
+
+
+SELECT snome
+FROM s
+WHERE s.matr NOT IN (
+	SELECT e.matr
+	FROM e
+	WHERE e.cc ='C1'
+)
+
+SELECT snome
+FROM s
+WHERE s.matr <> ALL(
+	SELECT e.matr
+	FROM e
+	WHERE e.cc='C1'
+)
+
+
+-- Studenti che hanno sostenuto tutti gli esami relativi a corsi del docente D1
+
+SELECT *
+FROM s
+WHERE NOT EXISTS(
+	SELECT *
+	FROM c
+	WHERE c.cd = 'D1' AND NOT EXISTS(
+		SELECT * 
+		FROM e
+		WHERE e.matr = s.matr AND e.cc=c.cc
+	)
+)
+*/	

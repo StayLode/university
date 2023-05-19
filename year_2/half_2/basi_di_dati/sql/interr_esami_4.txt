@@ -1,0 +1,51 @@
+/*
+-- Studenti che hanno sostenuto tutti gli esami relativi a corsi del docente D1
+-- Negata: Studenti per i quali non esiste alcun corso del docente D1 di cui non hanno sostenuto l'esame 
+SELECT *
+FROM s
+WHERE NOT EXISTS (
+	SELECT *
+	FROM c
+	WHERE c.cd = 'D1' AND NOT EXISTS(
+		SELECT *
+		FROM e
+		WHERE c.cc = e.cc AND e.matr=s.matr
+	)
+)
+
+-- Studenti che hanno sostenuto tutti gli esami sostenuti dallo studente M7
+-- Negata: Studenti per i quali non esiste alcun esame sostenuto da M7 che essi non hanno sostenuto
+
+SELECT *
+FROM s
+WHERE s.matr <> 'M7' AND NOT EXISTS(
+	SELECT *
+	FROM e e1
+	WHERE e1.matr = 'M7' AND NOT EXISTS(
+		SELECT *
+		FROM e e2
+		WHERE e1.cc = e2.cc AND s.matr=e2.matr
+	)
+)
+
+-- Matricole degli studenti che hanno sostenuto un esame insieme (stesso corso, stessa data) alla matricola M2
+SELECT matr
+FROM e
+WHERE matr <> 'M2' AND (cc, data) IN (
+	SELECT cc, data
+	FROM e
+	WHERE matr = 'M2' 
+)
+
+-- Per ogni studente, il voto massimo ottenuto escludendo gli esami con voto pari a 33 e considerando solo gli studenti con più di 1 esame;
+-- ordinare il risultato per voti massimi crescenti
+
+SELECT matr, MAX(voto)
+FROM e
+WHERE voto != 33 
+GROUP BY matr
+HAVING COUNT (matr)>1
+ORDER BY 2
+*/
+ 
+
