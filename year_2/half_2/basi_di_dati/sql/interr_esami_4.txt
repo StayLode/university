@@ -46,6 +46,22 @@ WHERE voto != 33
 GROUP BY matr
 HAVING COUNT (matr)>1
 ORDER BY 2
-*/
- 
 
+
+-- Selezionare per ogni docente il corso per il quale sono stati sostenuti il maggior numero di esami
+--?
+
+-- Creare una vista DOC_COR_ESAMI che mostri per ogni docente e per ogni corso di quel docente il numero di esami sostenuti
+
+CREATE VIEW DOC_COR_ESAMI AS
+	SELECT c.cd, c.cc, COUNT(e.*)
+	FROM c,e
+	WHERE c.cc = e.cc
+	GROUP BY c.cd, c.cc
+*/
+SELECT cd, cc
+FROM DOC_COR_ESAMI dce
+WHERE dce.count >= ALL(
+	SELECT dce2.count 
+	FROM DOC_COR_ESAMI dce2 
+	WHERE dce.cd=dce2.cd)

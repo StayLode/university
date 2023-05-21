@@ -1,0 +1,36 @@
+/*
+-- I codici degli ordini del negozio con codice 0040 e quelli in cui vengono richiesti più di 10 pezzi dello stesso articolo
+SELECT Ord_Cod
+FROM Ordini
+WHERE Neg_Cod = '0040'
+UNION
+SELECT Ord_Cod
+FROM OrdArt
+WHERE OrdArt_Qta > 10
+
+SELECT DISTINCT ordini.ord_cod
+FROM ordini, ordArt
+WHERE neg_cod='0040' OR (ordini.ord_cod=ordArt.ord_cod AND ordArt.ordArt_qta>10)
+
+-- I componenti meno utilizzati nelle composizioni, ovvero che compaiono meno della media nella composizione dei vari articoli
+SELECT DISTINCT com_cod
+FROM compArt
+WHERE CompArt_qta <= (
+	SELECT AVG(compArt_qta)
+	FROM compArt
+)
+
+-- Gli articoli per cui non vi sono ordini
+SELECT *
+FROM articoli a
+WHERE a.art_cod NOT IN (
+	SELECT oa.art_cod
+	FROM OrdArt oa
+)
+
+
+-- Per il componente “anta 100 cm”, la differenza rispetto al costo medio dei componenti
+SELECT com_costo-(SELECT AVG(com_costo) FROM componenti) as differenza
+FROM componenti
+WHERE com_descrizione = 'Anta 100 cm'
+*/
