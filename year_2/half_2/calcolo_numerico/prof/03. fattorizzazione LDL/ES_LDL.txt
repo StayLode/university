@@ -1,0 +1,25 @@
+-- Esercitazione --
+
+
+pt.1) 
+Si scriva una funzione che calcoli la fattorizzazione di Gauss di una matrice simmetrica A: ovvero restituisca due matrici L,D (L triangolare inferiore con diagonale unitaria, D diagonale) tali che L*D*L' = A. 
+
+Per scrivere il codice della funzione si parta dallo pseudo-codice presente nelle slides del corso, in particolare da quello che utilizza la matrice P per memorizzare opportunamente i prodotti tra gli elementi di L e D, in modo da non ripeterli quando non è necessario.
+
+La funzione deve effettuare un controllo sull'input A e procedere con la fattorizzazione solo se A è una matrice simmetrica (esiste una funzione Matlab predefinita adatta allo scopo: issymmetric, digitando: help issymmetric nel terminale si possono avere maggiori informazioni).
+
+
+pt.2)
+Si testi la funzione su almeno tre matrici simmetriche a piacere, calcolando in ciascun caso la matrice prodotto L*D*L' e verificando che sia uguale ad A (l'uguaglianza deve essere verificata a meno di "piccoli" errori di arrotondamento).
+
+Nota. Generare una matrice simmetrica con Matlab (non credo esista un comando diretto) può essere fatto in diversi modi. Ad esempio uno è il seguente: 1) si crea una matrice A random di dimensione n; 2) si va mettere dentro A il suo sotto-triangolo inferiore sommato al suo triangolo inferiore trasposto, ovvero: A = tril(A,-1) + tril(A)';
+
+
+pt.3)
+Si scelga una delle tre matrici A precedentemente generate, si generi un vettore colonna b random (di lunghezza n=length(A)) e si risolva il sistema Ax=b risolvendo i tre sistemi derivati dalla fattorizzazione L*D*L' = A. Ovvero il sistema  L*D*L' x = b.
+Si dovranno cioè risolvere tre sistemi mediante i metodi implementati nella prima esercitazione:
+- L*z=b (dove L è triangolare inferiore => sostituzione in avanti);  
+- D*y=z (dove D è diagonale => soluzione di sistemi diagonali);  
+- L'*x=y (L' triangolare superiore => sostituzione all'indietro). 
+
+Puoi verificare l'esattezza della soluzione x trovata calcolando infine il prodotto A*x e verificando che A*x - b sia uguale al vettore nullo (l'uguaglianza deve essere verificata a meno di "piccoli" errori di arrotondamento).

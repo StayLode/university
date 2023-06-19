@@ -1,0 +1,44 @@
+-- Esercitazione --
+
+PARTE.1
+
+Si scriva una funzione my_jacobi.m che calcoli la soluzione del sistema lineare A*x=b utilizzando il metodo iterativo di Jacobi.
+
+La funzione prende in ingresso:
+- la matrice dei coefficienti A,
+- il vettore dei termini noti b,
+- il vettore "punto iniziale" x0,
+- il parametro (intero) di salvaguardia sul numero di iterazioni Kmax,
+- la tolleranza per valutare i criteri di arresto tau.
+
+La funzione restituisce il vettore "soluzione" x e il numero di iterate eseguite k.
+
+---
+
+PARTE.2
+
+Si scriva una funzione my_GSeidel.m che calcoli la soluzione del sistema lineare A*x=b utilizzando il metodo iterativo di Gauss-Seidel.
+
+La funzione prende in ingresso:
+- la matrice dei coefficienti A,
+- il vettore dei termini noti b,
+- il vettore "punto iniziale" x0,
+- il parametro (intero) di salvaguardia sul numero di iterazioni Kmax,
+- la tolleranza per valutare i criteri di arresto tau.
+
+La funzione restituisce il vettore "soluzione" x e il numero di iterate eseguite k.
+
+---
+
+PARTE.3
+
+Si testino entrambe le funzioni su un sistemi lineare "casuale" della dimensione desiderata, generando una matrice dei coefficienti A e un vettore dei termini noti b.
+
+ATTENZIONE: con una scelta casuale della matrice A non è detto che il metodo converga, si crei una matrice A che sia strettamente diagonale dominante per righe.
+Per generare velocemente una matrice strettamente diagonale dominante per righe (di dimensione n) si può utilizzare il comando: A = rand(n) + eye(n)*(n-1).
+A rispetterà sicuramente la condizione in quanto rand(n) genera una matrice nxn i cui coefficienti sono tutti compresi tra 0 e 1.
+
+Si paragonino infine le norme delle soluzioni ottenute con i metodi iterativi (x_jacobi, x_gauss_seidel) con quella ottenuta con il metodo di diretto di Gauss (x_lu): 
+||x_jacobi - x_gauss_seidel||
+||x_jacobi - x_lu||
+||x_gauss_seidel - x_lu||

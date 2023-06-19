@@ -1,0 +1,26 @@
+-- Esercitazione --
+
+Nel file my_lu_dec.m trovate una funzione che calcola la fattorizzazione di Gauss (LU) di una matrice quadrata A.
+
+1) Partendo da tale funzione se ne scriva una analoga che calcoli la fattorizzazione di Gauss con pivoting parziale: ovvero restituisca tre matrici L,U,P (L triangolare inferiore, U triangolare superiore) tali che L*U = P*A. 
+Si consideri che la funzione deve effettuare scambi di riga affinché il perno abbia valore assoluto non-minore di tutti gli altri elementi della colonna che stanno nelle righe inferiori.
+
+2) Si testi la funzione su almeno tre matrici a piacere, calcolando poi in ciascun caso le matrici prodotto L*U e P*A e verificando che L*U=P*A (l'uguaglianza deve essere verificata a meno di "piccoli" errori di arrotondamento: abs( L*U-P*A ) < 10*eps).
+
+3) Infine si risolva con tali funzioni il sistema Ax=b per le seguenti scelte di A e b con entrambi i metodi di fattorizzazione, salvando le soluzioni nei due vettori x_lu e x_lup rispettivamente.
+
+	| 1     1    2 |			| 1 | 
+A = 	| 1  1.0001  2 |		b = 	| 2 |
+	| 1     2    2 |			| 1 |
+
+Si noti che l'errore tra la soluzione calcolata con Gauss (x_lu) è meno precisa della soluzione calcolata con Gauss+pivoting (x_lup): l'errore cade sulla 14 cifra decimale. 
+
+Per visualizzare quanto detto si scriva da linea di comando:
+
+format long (+ invio)
+
+e poi si stampino le soluzioni x_lu e x_lup scrivendo da linea di comando:
+
+x_lu (+ invio)
+
+x_lup (+ invio)

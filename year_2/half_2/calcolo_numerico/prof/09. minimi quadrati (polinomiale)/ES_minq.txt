@@ -1,0 +1,43 @@
+
+PARTE 1.
+
+Scrivere una function (my_minq_poli.m) che risolve il problema dei minimi quadrati nel caso non degenere.
+
+1- INPUT: x un vettore di m elementi (ascisse dei dati)
+	  y un vettore di m elementi (ordinate dei dati)
+	  n numero di parametri del modello (i coefficienti da determinare)
+	  un booleano: se true effettua il controllo sul rango (vedi punto 4) 
+
+2- verifica che n<=m.
+
+3- costruisce la matrice A (vedi slide lezione)
+
+4-  [se il booleano è true] verifica che si tratti del caso non-degenere (rango di A = n -- funzione rank() di matlab).
+
+5- calcola la fattorizzazione QR di A utilizzando la funzione qr di Matlab (attenzione a come lavora qr di Matlab: digitate help qr e leggete attentamente il paragrafo in cui si descrive il prototipo [Q,R]=qr(A), la matrice R che ritorna qr è la stessa che intendiamo nelle nostre slide? se no cosa cambia? come posso ricondurmi alla R delle nostre slide dalla R che ritorna qr?)
+
+5- calcolare y_tilde = Q' * y
+
+6- risolvere il sistema R*alpha = y_tilde (utilizzando solo le prime n componenti di y_tilde) con il comando \ di matlab.
+
+7- OUTPUT: ritornare alpha.
+
+----
+
+
+PARTE 2.
+
+Produrre uno script che: 
+
+- genera m dati utilizzando una delle "leggi/funzioni" che avete nel file (function) my_function.m Per cominciare utilizzate una funzione lineare ad esempio y = 2.5 x + 0.7, se non la avete già tra quella disponibili in my function.m aggiungetela. 
+Per generare i dtai "esatti" create due vettori di lunghezza m: uno con le m ascisse nell'intervallo [a,b] (scegliete a e b come preferite) e un altro con le m ordinate y=f(x).
+
+- "sporca" i dati esatti aggiungendo alle ordinate y un rumore bianco: per farlo utilizzate il comando randn di matlab. Per gestire il "livello" di rumore introdotto usate un parametro (vol), maggiore di 0, a moltiplicare il rumore (se vol>1 il rumore è amplificato, viceversa è ridotto).
+
+- fissato un certo n corrispondente al numero dei parametri del modello (n è un intero: in genere non troppo grande, diciamo minore di 5) e risolve il problema dei minimi quadrati utilizzando la funzione creata nella prima parte. 
+
+- stampa un grafico con: 
+	pallini rossi in corrispondenza dei dati e 
+	in blu la funzione polinomiale ricostruita con il metodo dei minimi quadrati (usate polyval su un insieme di ascisse più fine di quelle dei nodi per plottare il polinomio, ATTENZIONE all'ordine con cui vanno passati i parametri a polyval)
+
+- se utilizzate la funzione y = 2.5 x + 0.7 per generare i dati e due parametri per i minimi qudarati (n=2) provate a lanciare lo script diverse volte variando ogni volta il livello di rumore (vol) e prendete nota (stampate a video) ogni volta le componenti di alpha (i coefficienti della retta di regressione), cosa notate quando vol è molto piccolo (vicino a zero)? e quando invece vol è via via più grande?

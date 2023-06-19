@@ -1,0 +1,15 @@
+-- Esercitazione --
+
+Si scrivano tre funzioni:
+
+1- la prima "my_diag_sol" prende in input una matrice diagonale D e un vettore colonna b e calcola la soluzione del sistema lineare D*x=b utilizzando l'operatore divisione-puntuale;
+
+2- la seconda "my_ltri_sol" prende in input una matrice quadrata triangolare inferiore L e un vettore colonna b e calcola la soluzione del sistema lineare L*x=b mediante sostituzione in avanti;
+
+3- la terza "my_utri_sol" prende in input una matrice quadrata triangolare superiore U e un vettore colonna b e calcola la soluzione del sistema lineare U*x=b mediante sostituzione all'indietro.
+
+
+
+Da linea di comando si generino tre matrici 5x5 random A1, A2, A3 rispettivamente diagonale, triangolare superiore e triangolare inferiore e un vettore random b 5x1. (Si utilizzino i comandi rand, diag, tril e triu - vedere l'help per capire come funzionano es. help diag).
+
+Si risolvano infine i sistemi lineari A1*x=b, A2*x=b, A3*x=b utilizzando le funzione create.

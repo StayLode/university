@@ -1,0 +1,38 @@
+-- Esercitazione --
+
+- Parte 1 -
+
+Si scriva una funzione my_ceb_nodes.m che costruisca n nodi di Chebyschev nell'intervallo [a,b].
+
+La funzione prende in ingresso:
+- gli estremi a e b che definiscono l0intervallo [a,b]
+- il numero n di punti da costruire.
+
+La funzione restituisce il vettore colonna dei nodi di Chebyschev desiderati.
+
+---
+
+
+- Parte2 - (grafica) -
+
+Trovate nella cartella lo script esercizio_nodi_ceb.m che abbiamo svolto in aula il giorno 17/05/2023.
+
+Lo script fa le seguenti cose (in ordine):
+- chiude tutte le figure aperte e resetta il "workspace"
+- apre una nuova figura
+- definisce l'intervallo [a,b]
+- stampa la funzione da campionare (contenuta in my_function.m, utilizzate la funzione di runge) in due zone affiancate e distinte della figura
+- cicla sul numero (npc) dei nodi di interpolazione e in ciascun caso:
+	- crea npc nodi equispaziati in [a,b] e li stampa nella riquadro in alto a sinistra
+	- crea npc nodi di Chebyschev in [a,b] e li stsampa nella riquadro in alto a destra
+	- calcola il polinomio di interpolazione di Lagrange rispetto ai nodi equispaziati e ne calcola il valore in ciascun punto da plottare, quindi lo stampa nel riquadro in alto a sinistra
+	- calcola il polinomio di interpolazione di Lagrange rispetto ai nodi di Chebyschev e ne calcola il valore in ciascun punto da plottare, quindi lo stampa nel riquadro in alto a destra
+	- ferma l'esecuzione finché non viene premuto un pulsante (in modo da permette l'osservazione della figura prodotta)
+	- cancella tutto quello che è stato aggiunto in questa iterata del ciclo.
+
+
+Cercate di capire bene cosa fa il codice (leggete i commenti, utilizzate l'help di matlab, i forum online, etc. ) e fatelo girare alcune volte.
+Poi modificate lo script in modo che divida la figura in quattro regioni disposte su due righe:
+- nelle due in alto dovrà stampare quello che già stampava nella versione "originale"
+- nelle due in basso dovrà stampare la funzione resto (la differenza tra la funzione che stiamo campionando e il polinomio di interpolazione) per entrambe le scelte dei nodi. In particolare quella relativa ai nodi equispaziati in basso a destra e l'altra relativa ai nodi di Chebyschev in basso a destra. 
+(NOTA. dovreste ottenere qualcosa di simile a ciò che vedete nella slide 361.)

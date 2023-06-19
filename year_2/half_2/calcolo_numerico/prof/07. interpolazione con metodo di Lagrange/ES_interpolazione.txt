@@ -1,0 +1,62 @@
+-- Esercitazione --
+
+- Parte 1 -
+
+Si scriva una funzione my_lagrange_interpol.m che, dati n+1 punti del piano R^2, valuti il polinomio interpolante di grado n costruito rispetto alla base di Lagrange in un ulteriore punto dato in input x_eval.
+
+La funzione prende in ingresso:
+- un vettore colonna di nodi (ascisse) dei punti,
+- un vettore colonna di ordinate dei punti,
+- il punto (x_eval) in cui si valuta il polinomio.
+
+La funzione restituisce il numero reale (y_eval) in cui è valutato il polinomio interpolante.
+
+Si utilizzi un vettore per memorizzare i valori degli n+1 elementi della base di Lagrange calcolati in x_eval.
+
+Si utilizzi una variabile omega_n per memorizzare il prodotto delle n+1 differenze (x_eval - nodo_i), in modo da ottimizzare il calcolo dei numeratori degli elementi della base di Lagrange.
+
+Una volta calcolati tutti gli elementi della base di Lagrange sarà sufficiente fare il prodotto scalare tra le ordinate dei punti e gli elementi della base per ottenere y_eval: il valore del polinomio interpolante in x_eval.
+
+
+---
+
+
+- Parte2 - (grafica) -
+
+Considerate le funzione:
+f(x) = sin(x) - (x/2)^2 sull'intervallo [-2,2]
+che potete scrivere nel file my_function.m (vedi esercitazione 5). Attenzione: supponete che l'input sia un vettore di ascisse (utilizzate gli operatori corretti:  sin(x)-(x/2).^2  )
+Fate in modo che in my_function.m la funzione che avete appena inserito sia l'unica non-commentata.
+
+
+Create ora uno script matlab (una nuovo file che potete chiamare esercizio-interpolazione.m)
+Lo script una volta lanciato, scrivendo il suo nome e premendo invio da linea di comando, fa eseguire a matlab tutte le linee di codice scritte al suo interno.
+Ecco quello che deve fare il vostro script:
+
+1) aprire una nuova figura e fare in modo che su di essa possano essere sovrascritte più "plottate".
+
+2) definire gli estremi ('a' e 'b') dell'intervallo in cui considerate la funzione f.
+
+3) stampare il grafico di f(x_plot) utilizzando il comando plot() dove:
+   si fissa un numero di punti che verranno plottati n_plot (ad esempio 1000)
+   si costruisce un vettore x_plot di (almeno) n_plot valori equispaziati tra 'a' e 'b' (comando linespace)
+   si costruisce il vettore y_plot delle f(x_xplot_i) cioè dei valori della f calcolata negli elementi del vettore x_plot
+   si stampa il grafico nella figura creata precedentemente con il comando plot()	
+
+4) CAMPIONARE f: scegliere 'n_pti_camp' cioè il numero nodi tra 'a' e 'b' (anche in questo caso vanno presi equispaziati) e calcolate i valori (ordinate) della f nei nodi creando così i due vettori x_camp e y_camp; ciascuna coppia (x_camp_i, y_casmp_i) sarà uno dei punti di interpolazione.
+Stampare nella solita figura dei pallini rossi in corrispondenza di ciascun punto di campinamento.
+
+5) Utilizzando la funzione my_lagrange_interpol.m calcolate i valori del polinomio interpolante nel vettore x_plot definito al punto 3. Attenzione non è detto che sia sempre possibile farlo: le x in cui valutate il polinomio devono essere diverse dai nodi!! Saltate la valutazione del polinomio per gli elementi di x che coincidono con un nodo [nota: questo accorgimento non è implementato nella soluzione]. Salvate i valori calcolati in un vettore y_lagr e utilizzate il comando plot per stampare nella stessa figura il grafico del polinomio interpolante (preceduto da hold on per non cancellare il grafico di f).
+
+
+"Giochiamo" un po'...
+
+Provate inizialmente ad utilizzare n=2 nodi e poi successivamente aumentate il numero di nodi (3, 4, 5, etc..) ripetendo il procedimento descritto.
+
+Cosa osservate? Cosa accade al grafico del polinomio all'aumentare dei nodi?
+
+
+Ripetete ora gli esperimenti utilizzando al posto di f(x) la seguente funzione:
+g(x) = 1 / ( 1 + 25*x^2 )
+
+Osservate lo stesso comportamento che avveniva con la f(x) all'aumentare dei nodi? 

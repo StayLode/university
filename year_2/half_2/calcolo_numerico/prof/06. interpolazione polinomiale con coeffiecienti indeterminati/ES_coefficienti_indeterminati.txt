@@ -1,0 +1,78 @@
+-- Esercitazione --
+
+Parte1 - matrice di Vandermonde
+
+Si scriva una funzione my_vandermonde.m che, dati n+1 punti del piano R^2, restituisca la matrice di Vandermonde V di dimensione (n+1)x(n+1).
+
+La funzione prende in ingresso:
+- un vettore colonna di nodi (ascisse dei punti di interpolazione) x,
+
+Si costruisca la matrice V per colonna:
+- inizializzare V a una matrice di 1 (utilizzando il comando ones)
+- tranne la prima, ogni colonna si ottiene moltiplicando (elemento per elemento, ovvero puntualmente .*) la colonna precedente per il vettore dei nodi.
+V(:,j) = V(:,j-1) .* x, per ogni j=2,..,n+1.
+Si noti che n+1 è la lunghezza del vettore in input.
+
+
+
+---
+
+Parte2 - coefficienti del polinomio interpolante -
+
+Da linea di comando:
+- si generino due vettori random x e y, entrambi con n elementi: le ascisse e le ordinate dei punti di interpolazione.
+- si costruisca la matrice di Vandermonde usando la funzione descritta nella prima parte.
+- si determini il vettore alpha contenete gli n+1 coefficienti del polinomio di interpolazione risolvendo il sistema lineare V * alpha = y fattorizzando V con il metodo di Gauss con pivoting
+e risolvendo i due sistemi triangolari che ne derivano.
+
+---
+
+Parte3 - grafica -
+
+Si crei una figura in cui tramite il comando plot si stampano i punti di interpolazione (cerchi rossi) e il grafico del polinomio interpolante.
+Per stampare il grafico del polinomio si definisce un vettore x_plot di m ascisse (m deve essere un numero abbastanza grande, ad es. 10000) equispaziate tra min(x) e max(x), utilizzando il comando linspace, quindi si utilizzi il comando polyval per valutare i valori che il polinomio assume in x_plot e si salvino nel vettore y_plot. A questo punto è sufficiente chiamare plot(x_plot, y_plot) per avere il grafico del polinomio. [ATTENZIONE: ricordatevi di chiamare 'hold on' prima del secondo plot]
+
+Nota: il comando polyval si aspetta il vettore dei coefficienti ordinato da quello relativo al termine di grado massimo (x^n) a quello di grado minimo (x^0,  termine noto). Il nostro vettore alpha è invece ordinato esattamente al contrario. Bisogna quindi scambiare l'ordine degli elementi alpha: provate a capire come farlo con un unica riga di codice (la soluzione a questo "indovinello" è in fondo a questo file). 
+
+Se avete voglia provate a ripetere l'esercitazione al variare del numero dei punti (es. n=1,2,4,10). Cosa notate?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SOL: alpha = alpha( length(alpha) : -1 : 1 )

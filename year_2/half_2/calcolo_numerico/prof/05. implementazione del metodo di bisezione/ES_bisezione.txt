@@ -1,0 +1,91 @@
+-- Esercitazione --
+
+Si scriva una funzione my_bisection.m che calcoli la soluzione approssimata del problema unidimensionale f(x)=0 utilizzando il metodo di bisezione.
+
+La funzione prende in ingresso:
+- una stringa func_name contenete il nome del file in cui è descritta la funzione f(x), ad esempio se la funzione è contenuta nel file my_function.m la stringa in input sarà "my_function",
+- il numero reale a che definisce l'estremo sinistro dell'intervallo di ricerca,
+- il numero reale b che definisce l'estremo destro dell'intervallo di ricerca,
+- la tolleranza tau per valutare il criterio di arresto.
+
+La funzione restituisce il numero reale x che approssima uno zero di f e il numero di iterate eseguite N.
+
+Per valutare la funzione nei punti in cui è necessario farlo si usi il comando matlab feval():
+
+fa = feval(func_name, a) 
+salva nella variabile 'fa' il valore di ritorno della funzione che ha il nome corrispondente alla stringa contenuta in func_name. 
+Si digiti nella riga di comando help feval per maggiori dettagli.
+
+
+Si dovrà pertanto creare un ulteriore file matlab (ad esempio my_function.m) in cui si va a scrivere la "legge" della funzione che vogliamo utilizzare nel metodo di bisezione.
+
+Es. di file my_function.m
+function y = my_function(x)
+y = - x.^2 + 3*x - 2;
+
+Nell'esempio abbiamo implementato la funzione f(x) = - x^2 + 3x - 2.
+Potete scegliere una funzione continua a piacere.
+
+
+Anche la scelta dell'intervallo [a,b] e della tolleranza tau sono a discrezione dell'utente.
+ATTENZIONE: Si tenga presente che la funzione f che avete scelto deve verificare le ipotesi del teorema del valor medio nell'intervallo [a,b], ovvero f(a)*f(b)<0. 
+Si può inserire un controllo all'interno della funzione my_bisection.m.
+
+Sempre nella funzione my_bisection.m si dovrà stabilire il numero N di iterazioni da effettuare sulla base della tolleranza tau utilizzando la relazione N >= log2((b-a)/tau).
+
+
+Si testi la funzione my_bisection.m su alcune funzioni non-lineari; potete aggiungerle semplicemente al file my_function.m e commentare tutte le funzioni tranne quella che volete utilizzare. 
+
+Per iniziare potete usare la funzione definita prima nell'intervallo [1,1.8]. La funzione in questione ha come zeri x1=1 e x2=2 quindi in [1,1.8] il metodo di bisezione converge a 1.
+
+
+
+---
+
+
+
+Parte2 - grafica -
+
+Scrivere una funzione che prende in ingresso:
+- una stringa func_name contenete il nome del file in cui è descritta la funzione f(x),
+- il numero reale a che definisce l'estremo sinistro dell'intervallo di stampa,
+- il numero reale b che definisce l'estremo destro dell'intervallo di stampa,
+- il numero npt di punti di campionamento di [a,b],
+- il valore z dello zero che avete calcolato con il metodo di bisezione.
+
+La funzione deve stampare 
+1) il grafico di f(x) nell'intervallo [a,b],
+2) l'asse x ristretto all'intervallo [a,b],
+3) il punto (z,0) che rappresenta l'approssimazione dello zero di f che avete ottenuto con il metodo di bisezione.
+
+Utilizziamo il comando matlab  figure  per generare una figura vuota.
+Per stampare utilizziamo il comando matlab plot():
+- se x,y sono dei NUMERI plot(x,y) stampa il punto di coordinate (x,y) nella figura corrente,
+- se x,y sono VETTORI della stessa lunghezza n, plot(x,y) stampa n punti (x_i, y_i) nella figura corrente e li interpola producendo una linea continua.
+
+Conviene creare un vettore di n_pt punti equi-spaziati tra a e b, 
+utilizzando il comando matlab x = linspace(a, b, n_pt) 
+e poi crearsi un vettore y lungo come x e riempirlo utilizzando feval:
+y = feval(func_name, x).
+
+In questo modo plot(x,y) stamperà nella figura corrente il grafico di f(x) relativamente all'intervallo [a,b].
+
+Per stampare l'asse x si può utilizzare nuovamente il comando plot a cui passeremo il vettore x e un vettore di zeri lungo come x.
+Infine la stampa del punto (z,0) si ottiene con plot(z,0).
+
+Per avere una risoluzione accettabile del grafico di f è consigliabile utilizzare almeno 1000 punti, cioè n_pt = 1000.
+
+ATTENZIONE: normalmente ogni volta che chiamiamo il comando plot questo pulisce la figura corrente prima di stampare il nuovo contenuto, quindi dato che noi vorremmo visualizzare tutti e tre i nostri plot contemporaneamente dobbiamo utilizzare il comando 
+hold on
+che va ad evitare la cancellazione dei plot precedenti. 
+Basta inserirlo o prima del primo plot oppure tra il primo e il secondo plot e tutti i plot successivi saranno sovrapposti.
+Si veda l'help per il comando hold per maggiori chiarimenti.
+
+Infine sarebbe bello utilizzare colori diversi per le diverse entità stampate (grafico, asse x, zero di f) e mettere in evidenza il punto (z,0) che altrimenti risulta difficilmente identificabile nella figura. Provate a leggere la documentazione del comando plot per capire come fare.
+
+
+
+Provate quindi il il vostro programma di stampa dopo aver calcolato la soluzione approssimata di un problema f(x)=0 con una precisione tau = 0.00001 (cioè 10^-5). Se stampate un intervallo [a,b] dell'ordine dell'unità dovreste vedere il punto che corrisponde allo zero sovrapposto all'intersezione del grafico di f con l'asse x. 
+Provate ora a zoomare progressivamente nella zona in cui è presente lo zero (nella finestra cliccate la lente di ingrandimento con il + e selezionate sul grafico l'area da ingrandire); quando riuscite a vedere che la soluzione approssimata non è più sovrapposta all'intersezione tra il grafico e l'asse x
+aiutatevi con i valori riportati in basso nella finestra per capire quanto distano: all'incirca questa distanza è comparabile alla tolleranza che avete utilizzato nel metodo di bisezione?
+

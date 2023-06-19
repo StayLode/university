@@ -1,0 +1,49 @@
+
+PARTE 1.
+
+Scrivere una function (my_minq.m) che risolve il problema dei minimi quadrati nel caso generale lineare, non degenere.
+
+1- INPUT: x un vettore di m elementi (ascisse dei dati)
+	  y un vettore di m elementi (ordinate dei dati)
+	  f vettore di funzioni di base
+	  un booleano: se true effettua il controllo sul rango (vedi punto 4) 
+
+2- verifica che n<=m.
+
+3- costruisce la matrice A (vedi slide lezione)
+
+4-  [se il booleano è true] verifica che si tratti del caso non-degenere (rango di A = n -- funzione rank() di matlab).
+
+5- calcola la fattorizzazione QR di A utilizzando la funzione qr di Matlab (attenzione a come lavora qr di Matlab: digitate help qr e leggete attentamente il paragrafo in cui si descrive il prototipo [Q,R]=qr(A), la matrice R che ritorna qr è la stessa che intendiamo nelle nostre slide? se no cosa cambia? come posso ricondurmi alla R delle nostre slide dalla R che ritorna qr?)
+
+5- calcolare y_tilde = Q' * y
+
+6- risolvere il sistema R*alpha = y_tilde (utilizzando solo le prime n componenti di y_tilde) con il comando \ di matlab.
+
+7- OUTPUT: ritornare alpha.
+
+NOTA. partite dalla funzione dell'esercitazione 9 e modificatela opportunamente.
+Una funzione in matlab può essere specificata anche utilizzando la sintassi: 
+@(t) f(t) dove dentro at @() dichiarate il nome della variabile e f(t) è la 'legge' della funzione.
+es. @(t) t.^2 + t.*log(t) + 3 		[è la funzione f(t) = t^2 + t log(t) + 3]
+un vettore di funzioni si può creare utilizzando il comando f = cell(n,1) dove n è il numero di funzioni che darà parte del vettore. A questo punto il vettore (di celle) f si può inizializzare elemento per elemento con i seguenti comandi:
+f{1} = 2*t + 1
+f{2} = t^2
+f{3} = log(t) - 5
+...
+f{n} = exp(-t) + t
+L'oggetto f è definito esternamente alla funzione essendo un parametro da dare in input.
+Per accedere a una sua componente si usa la sintassi f{i}, mentre per valutare una componente in un certo valore v scriveremo f{i}(v).
+Ad esempio se vogliamo riempire la terza colonna di una matrice A con i valori della quarta funzione valutata in un vettore di ascisse x scriveremo: A(:,3) = f{4}(x);
+
+
+----
+
+
+PARTE 2.
+
+Nella cartella troverete due script che utilizzano, tra le altre cose, anche la funzione creata nella PARTE 1:
+- uno dei due è analogo a quello creato nella PARTE 2 dell'esercitazione 9,
+- l'latro è arricchito da molte funzionalità accessorie relative al caricamento/salvataggio di dati da su file. Provate a leggere e capire come funziona aiutandovi con l'help di matlab e la documentazione e i forum on-line. 
+
+PS. In caso di dubbi sono sempre disponibile se mi contattate via mail.
