@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Progetto_lodesani:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Progetto_lodesani_jar</output-path>
+    <root id="archive" name="Progetto_lodesani.jar">
+      <element id="module-output" name="Progetto_lodesani" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/bin/lib/jdatepicker-2.0.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/bin/lib/jOpenDocument-1.5.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
