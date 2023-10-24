@@ -5,14 +5,14 @@
 
 function [x0,k] = my_jacobi(A,b,x0,Kmax,tau)
 
-D = diag(diag(A));
+M = diag(diag(A));
 N = D - A; % diag(d) matrice diagonle con diagonale d; A1 = -E -F
 tau_normb = tau*norm(b); % norma 2
 
 for k = 1:Kmax
     res = norm(b - A * x0);
     p = N*x0 + b; % vettore dei termini noti per ricavare l'iterata successiva
-    x = my_diag_sol(D, p); % x0 gioca il ruolo di xk, x quello di xk+1
+    x = my_diag_sol(M, p); % x0 gioca il ruolo di xk, x quello di xk+1
     dist = norm(x - x0);
     
     if ( dist < tau*norm(x)  &&  res < tau_normb )

@@ -2,7 +2,7 @@ function plot_my_function_zero(func_name, a, b, n_pts, zero)
 figure % apre una nuova figura vuota
 x = linspace(a,b,n_pts); % vettore con n elementi equispaziati tra a e b.
 y = feval(func_name, x); % vettore con n elementi y(i) = f( x(i) )
-% OOPURE
+% OPPURE
 %y = zeros(1,length(x));
 %for i=1:length(x)
 %    y(i) = feval(func_name, x(i));

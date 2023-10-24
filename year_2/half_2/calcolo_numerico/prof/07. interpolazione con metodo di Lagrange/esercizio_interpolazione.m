@@ -7,12 +7,14 @@ hold on
 a=-2;
 b=2;
 
-n_plot = 1000;
+%Disegno della funzione
+n_plot = 200;
 x_plot = linspace(a, b, n_plot)';
 y_plot = my_function(x_plot);
 plot(x_plot,y_plot);
 
-n_pti_camp = 30;
+%Disegno dei punti
+n_pti_camp = 10;
 x_camp = linspace(a, b, n_pti_camp)';
 y_camp = my_function(x_camp);
 plot(x_camp,y_camp,'ro');

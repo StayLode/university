@@ -61,7 +61,7 @@ for n_pti_camp = 2 : max_pts
     subplot(1,2,2);
     pl_pol_ceb = plot(x_plot, y_lagr, 'g');
 
-    pause() % ferma l'esecuzione finché non viene premuto un pulsante
+    pause() % ferma l'esecuzione finché non viene premuto un pulsante CON QUALE???
 
     % pulire le figure dai nodi e dai polinomi di interpolazione per 
     % evitare che vengano sovrapposti a quelli che saranno stampati 

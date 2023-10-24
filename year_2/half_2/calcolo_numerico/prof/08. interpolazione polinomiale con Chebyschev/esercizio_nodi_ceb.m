@@ -85,7 +85,7 @@ for n_pti_camp = 2 : max_pts
     subplot(2,2,4);
     pl_rn_ceb = plot(x_plot, Rnx, 'b');
 
-    pause() % ferma l'esecuzione finché non viene premuto un pulsante
+    %pause() % ferma l'esecuzione finché non viene premuto un pulsante CON QUALE??
 
     if n_pti_camp < max_pts
         % pulire le figure dai nodi e dai polinomi di interpolazione per 

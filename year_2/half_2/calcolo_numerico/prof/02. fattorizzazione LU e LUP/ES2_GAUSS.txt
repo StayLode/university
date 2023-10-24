@@ -15,7 +15,7 @@ A = 	| 1  1.0001  2 |		b = 	| 2 |
 
 Si noti che l'errore tra la soluzione calcolata con Gauss (x_lu) è meno precisa della soluzione calcolata con Gauss+pivoting (x_lup): l'errore cade sulla 14 cifra decimale. 
 
-Per visualizzare quanto detto si scriva da linea di comando:
+ffor
 
 format long (+ invio)
 

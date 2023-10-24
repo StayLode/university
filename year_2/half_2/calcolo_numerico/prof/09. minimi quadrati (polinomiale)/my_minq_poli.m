@@ -25,11 +25,11 @@ end
 
 % Fattorizzazione QR di A: uso la funzione qr di matlab (vedi help qr)
 [Q,R] = qr(A);
+y_tilde = Q' * y;
 R = R(1:n, 1:n); % la funzione qr per matrici non quadrate ritorna come
                  % R una matrice rettangolare mxn 
                  % le preime n righe e n colonne di R formasno una mtarice 
                  % quadrata triangolare superiore.
-
-y_tilde = Q' * y;
-alpha = my_utri_sol(R, y_tilde(1:n));
+y_tilde = y_tilde(1:n);
+alpha = my_utri_sol(R, y_tilde);
 %alpha = R \ y_tilde(1:n); % in alternativa ala linea precedente

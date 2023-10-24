@@ -33,6 +33,6 @@ end
 
 %METODO MATLAB ==> utilizzo operatori puntuali
 d = diag(D);
-x = b./d;
+x = b ./ d;
 
 
