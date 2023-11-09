@@ -1,6 +1,6 @@
 import numpy as np
 import torch
-import torch.nn as nn                   #*Neural Network
+import torch.nn as nn                   #* Neural Network
 import matplotlib.pyplot as plt
 
 #!NumPy
