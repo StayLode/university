@@ -75,3 +75,4 @@ print(minrow)
 print("\t valori: ", end='');print(minrow.values)
 print("\t posizioni: ",end='');print(minrow.indices);print()
 
+      
