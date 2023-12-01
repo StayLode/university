@@ -43,13 +43,7 @@ class Gatto(Animale):
     def __init__(self, sesso, eta=0, coda=True, zampe=4):
         super().__init__(sesso, eta, coda, zampe)
 
-    @staticmethod
-    def cammina():
-        print("camminooooo")
-    
-    @staticmethod
-    def corri():
-        print("corroooo")
+
 
 class Cane(Animale):
     cont=0
