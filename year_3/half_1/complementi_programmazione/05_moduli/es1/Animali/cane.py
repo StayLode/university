@@ -21,3 +21,7 @@ class Cane:
     
 def stessoLuogo(cane1, cane2):
     return cane1.eta==cane2.eta
+
+if __name__ == "__main__":
+    c = Cane('M')
+    c.abbaia()
